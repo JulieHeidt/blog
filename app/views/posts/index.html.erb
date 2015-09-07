@@ -1,0 +1,21 @@
+<div class="homeBg"></div>
+
+<section class="posts">
+	<div class="container">
+		<div class="row">
+			<ul>
+			    <% @posts.each do |post| %>
+					<div class="col-sm-3">    
+				        <li>
+				            <h2 class="text-center"><%= post.title %></h2>
+				            <p><%= post.blurb %></p>
+				            <h5><%= link_to 'Show' , post %></h5>
+				            <h5><%= link_to 'Edit' ,  edit_post_path(post) %></h5>
+				            <h5><%= link_to 'Destroy' , post , method: :delete , data: { confirm: 'Are you sure?' } %></h5>
+				        </li>
+					</div>	
+			    <% end %>
+			</ul>
+		</div>
+	</div>
+</section>

@@ -1,0 +1,38 @@
+<section class="form-post">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+			
+				<%= form_for( @post ) do |f| %>
+					
+					<% if @post.errors.any? %>				
+						<div id	="error_explaination">
+							<h3><%= pluralize( @post.errors.count , "error" ) %> prohibited this post from being saved:</h3>
+							<ul>
+								<% @post.errors.full_message.each do |message| %>
+									<li><%= message %></li> 
+								<% end %>
+							</ul>
+						</div>
+					<% end %>
+
+					<div class="field">
+						<%= f.label :title %> <br />
+						<%= f.text_field :title %>
+					</div>
+
+					<div class="field">
+						<%= f.label :blurb %> <br />
+						<%= f.text_field :blurb %>
+					</div>
+
+					<div class="actions">
+						<%= f.sumbit %>
+					</div>
+				
+				<% end %>
+
+			</div>
+		</div>
+	</div>		
+</section>

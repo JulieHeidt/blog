@@ -1,0 +1,9 @@
+posts = Post.create([
+	{ title: "Coding Life" , blurb: "There was a day thast was amazing. I learned So much.Bacon ipsum dolor amet tenderloin rump fatback ribeye pork capicola tongue shank cow kielbasa ground round sirloin. Corned beef turducken strip steak, porchetta t-bone chicken sirloin. Jerky spare ribs boudin, turducken venison beef shankle pork belly ground round cow biltong porchetta. Fatback pastrami ham hock strip steak kevin pork." } ,
+	
+	{ title: "Syntax In Minds" , blurb: "There was a day thast was amazing. I learned So much.Bacon ipsum dolor amet tenderloin rump fatback ribeye pork capicola tongue shank cow kielbasa ground round sirloin. Corned beef turducken strip steak, porchetta t-bone chicken sirloin. Jerky spare ribs boudin, turducken venison beef shankle pork belly ground round cow biltong porchetta. Fatback pastrami ham hock strip steak kevin pork." } , 
+	
+	{ title: "Destroy It Again" , blurb: "There was a day thast was amazing. I learned So much.Bacon ipsum dolor amet tenderloin rump fatback ribeye pork capicola tongue shank cow kielbasa ground round sirloin. Corned beef turducken strip steak, porchetta t-bone chicken sirloin. Jerky spare ribs boudin, turducken venison beef shankle pork belly ground round cow biltong porchetta. Fatback pastrami ham hock strip steak kevin pork." } ,
+	
+	{ title: "Click Happy" , blurb: "There was a day thast was amazing. I learned So much.Bacon ipsum dolor amet tenderloin rump fatback ribeye pork capicola tongue shank cow kielbasa ground round sirloin. Corned beef turducken strip steak, porchetta t-bone chicken sirloin. Jerky spare ribs boudin, turducken venison beef shankle pork belly ground round cow biltong porchetta. Fatback pastrami ham hock strip steak kevin pork." }
+])
